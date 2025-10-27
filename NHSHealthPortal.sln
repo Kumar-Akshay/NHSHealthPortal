@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FA10644D-1692-4B3C-9D03-78164DBAE9AA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{C6F1812D-26E7-40A9-B665-28538EA47880}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHSHealthPortal.API", "NHSHealthPortal.API\NHSHealthPortal.API.csproj", "{03B10973-9E99-43F0-A1EC-FA3A3B85208F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHSHealthPortal.Core", "NHSHealthPortal.Core\NHSHealthPortal.Core.csproj", "{38261D43-2FD8-449B-BC16-3D33A2E1EC70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHSHealthPortal.Data", "NHSHealthPortal.Data\NHSHealthPortal.Data.csproj", "{7E8DF09E-5098-4E97-B1B5-390F5B7D60A8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{03B10973-9E99-43F0-A1EC-FA3A3B85208F} = {FA10644D-1692-4B3C-9D03-78164DBAE9AA}
+		{38261D43-2FD8-449B-BC16-3D33A2E1EC70} = {FA10644D-1692-4B3C-9D03-78164DBAE9AA}
+		{7E8DF09E-5098-4E97-B1B5-390F5B7D60A8} = {FA10644D-1692-4B3C-9D03-78164DBAE9AA}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03B10973-9E99-43F0-A1EC-FA3A3B85208F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03B10973-9E99-43F0-A1EC-FA3A3B85208F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03B10973-9E99-43F0-A1EC-FA3A3B85208F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03B10973-9E99-43F0-A1EC-FA3A3B85208F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38261D43-2FD8-449B-BC16-3D33A2E1EC70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38261D43-2FD8-449B-BC16-3D33A2E1EC70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38261D43-2FD8-449B-BC16-3D33A2E1EC70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38261D43-2FD8-449B-BC16-3D33A2E1EC70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E8DF09E-5098-4E97-B1B5-390F5B7D60A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E8DF09E-5098-4E97-B1B5-390F5B7D60A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E8DF09E-5098-4E97-B1B5-390F5B7D60A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E8DF09E-5098-4E97-B1B5-390F5B7D60A8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
